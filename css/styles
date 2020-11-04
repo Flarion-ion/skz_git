@@ -1,0 +1,146 @@
+@CHARSET "UTF-8";
+html, body {
+	padding: 0;
+	margin: 0;
+	height : calc(100% - 35px);
+}
+
+#region-list {
+	width: 15%;
+}
+#support {
+	/*margin: 0 auto;
+	padding-top: 10%;*/
+}
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.input-daterange {
+	width: initial;
+}
+
+.input-daterange input {
+	width: 10em!important;
+}
+
+.content-container{
+	margin-top: 45px;
+	height: 100%;
+}
+
+.left-input{
+	width: auto;
+}
+
+.warning{
+	background-color: yellow !important;
+}
+.alert{
+	background-color: red !important;
+}
+
+.horizontal {
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+.panel {
+	width: 33%;
+	position: relative;
+	border: 1px solid #C7C7C7;
+	border-radius: 3px;
+	align-items: stretch;
+	float: left;
+}
+
+.block-header {
+	background: #E8E8E8;
+	border-bottom: 1px solid #C7C7C7;
+	padding: 10px;
+	font-size: 1.2em;
+}
+.block-content {
+	margin: 10px;
+}
+.field {
+	margin-bottom: 10px;
+	width: 100%;
+}
+.field-value input{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 25px;
+	padding: 0 4px;
+	width: 100%;
+}
+.field-button input{
+	height: 25px;
+	padding: 0 4px;
+	width: 100%;
+}
+#setpoint_form span{
+	padding: 5px 5px 0px 5px;
+}
+.setpoint {
+	width: 70%;
+	position: relative;
+	align-items: stretch;
+	float: left;
+}
+.deviation {
+	width: 30%;
+	position: relative;
+	align-items: stretch;
+	float: left;
+}
+#window-toolbar {
+	margin-top:10px;
+}
+#deleteButton {
+/* 	float:right; */
+	margin-top: 60px;
+}
+
+#cancelButton {
+ 	float:right;
+}
+#jqxwindow {
+	position: fixed;
+}
+#jqxwindow .jqx-window-content {
+	overflow: hidden;
+}
+#station_panel{
+	margin-bottom: 0px;
+}
+#protection_panel{
+	margin-bottom: 0px;
+}
+#setpoint_panel{
+	margin-bottom: 0px;
+}
+
+.state_icon{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/*fix jqxwindow z-index:*/
+.navbar-fixed-top,
+.navbar-fixed-bottom{
+	z-index: 10000 !important;
+}
+.jqx-window-modal{
+	z-index: 90990 !important;
+}
+.jqx-window{
+	z-index: 91000 !important;
+}
+.jqx-listbox{
+	z-index: 91010 !important;
+}
+
