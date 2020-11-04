@@ -1,0 +1,15 @@
+.loader{
+	display: inline-block;
+	font-size: 300%;
+	width: 30%;
+	margin-top: 5%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	animation:  elastic-rotation 1.33s cubic-bezier(0.680, -0.550, 0.265, 1.550) infinite;
+}
+
+@keyframes elastic-rotation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
